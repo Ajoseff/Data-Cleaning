@@ -1,0 +1,39 @@
+Date,ID,Name,Region,Rating,Product,Quantity,Price Per Unit,,Mini Project: Report on Steps Insights on Data Cleaning and Analysis Task
+1/31/2023 0:00,25,Loki Laufeyson,Asgard,Mischief,Trickster's Hat,75,$29.33 ,,Remove Duplicate IDs: 
+2/28/2023 0:00,26,Thor Odinson,Asgard,Worthy,Mjolnir,80,$28.75 ,,Highligt the IDs column
+,,,,,,155,$58.08 ,,Click on "Data" from the menu bar
+2/28/2021 0:00,2,Jane Doe,East,Excelent,Unicorn Horn,15,$10.00 ,,click on "Remove duplicate" on the on the data tool group
+5/31/2021 0:00,5,Chris P. Bacon,East,Good,Bacon Scented Candle,30,$16.67 ,,2. Handle Infinite Values:
+9/30/2021 0:00,9,Clark Kent,East,Good,Glasses with X-ray Vision,45,$12.22 ,,Highlights the first row that contains "inf" by clicking on the row number
+5/31/2022 0:00,17,Peggy Carter,East,Good,Vintage Pistol,40,$35.00 ,,Hold down control key and click on all the row numbers of the remaining rows containing "inf"
+9/30/2022 0:00,21,Kurt Busiek,East,Good,Comic Book,60,$30.00 ,,Right click and select "delete rows" from the list of actions
+,,,,,,190,$103.89 ,,3. Regional Analysis
+1/31/2021 0:00,1,John Smith   ,North,Good,Magic Wand,10,$20.00 ,,First of all sort the entire data by Region
+10/31/2021 0:00,10,Diana Prince,North,Excelent,Lasso of Truth,50,$14.00 ,,Insert rows at the end of each region to provide space for totals per region
+6/30/2022 0:00,18,Howard Stark,North,Excelent,Arc Reactor,45,$33.33 ,,Calculate the total quantity and value for each region
+,,,,,,105,$67.33 ,,Summary table per region
+4/30/2021 0:00,4,Anna   Belle,South,Average,Fairy Dust,25,$10.00 ,,"List regions, quantities and prices per Unit respectively"
+8/31/2021 0:00,8,Bruce Wayne,South,Average,Bat Signal,40,$15.00 ,,Calculate the totals using the SUM function
+12/31/2021 0:00,12,Steve Rogers,South,Average,Captain America Shield,20,$45.00 ,,Bold the subtotals and Summary
+8/31/2022 0:00,20,Janet van Dyne,South,Average,Wasp's Wings,55,$30.91 ,,Highlight the summary data and go to "Insert" on the the menu bar
+12/31/2022 0:00,24,Tom DeFalco,South,Average,Pen Set,70,$30.00 ,,Insert table from the "Tables group
+4/30/2023 0:00,28,Steve Rogers,South,Leader,Leadership Manual,85,$29.41 ,,
+,,,,,,295,$160.32 ,,
+7/31/2021 0:00,7,Mary Jane,West,Poor,Potent Potion,35,$10.00 ,,
+11/30/2021 0:00,11,Tony Stark,West,Poor,Iron Man Suit,5,$160.00 ,,
+3/31/2022 0:00,15,Nick Fury,West,Poor,Eye Patch,35,$34.29 ,,
+7/31/2022 0:00,19,Hank Pym,West,Poor,Ant-Man Suit,50,$32.00 ,,
+11/30/2022 0:00,23,Roger Stern,West,Poor,Notepads,65,$30.77 ,,
+,,,,,,190,$267.06 ,,
+2/28/2022 0:00,14,Bruce Banner,,Excelent,Gamma Radiation Serum,30,$36.67 ,,
+,,,,,,30,$36.67 ,,
+,,,,,,,,,
+SUMMARY,,,,,,,,,
+REGION,QUANTITY,PRICE PER UNIT,,,,,,,
+Asgard,155,$58.08 ,,,,,,,
+East,190,$103.89 ,,,,,,,
+North,105,$67.33 ,,,,,,,
+South,295,$160.32 ,,,,,,,
+west,190,$267.06 ,,,,,,,
+unidentified,30,$36.67 ,,,,,,,
+,965,693.35,,,,,,,
